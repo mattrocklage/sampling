@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --outDir docs",
     "preview": "vite preview",
     "deploy": "git add dist -f && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix dist origin gh-pages"
   },

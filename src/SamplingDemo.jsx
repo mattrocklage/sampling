@@ -249,6 +249,7 @@ export default function SamplingDemo() {
   return (
 <div className="flex flex-col items-center gap-4 p-4">
   <h1 className="text-2xl font-bold text-center">Sampling Demo: Random vs. Non-Probability</h1>
+<h2 className="text-1xl font-bold text-center">Created by Matt Rocklage</h2>
   <Card className="w-full max-w-4xl">
     <CardContent className="p-4 flex flex-col gap-4">
       {/* Replace the <p> element with this unordered list */}
